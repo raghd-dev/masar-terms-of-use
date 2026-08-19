@@ -1,97 +1,527 @@
-# MASAR Terms of Use
+<!DOCTYPE html>
 
-**Effective Date: August 19, 2026**
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Welcome to MASAR. These Terms of Use govern your use of the MASAR application and related services.
+  <title>MASAR — Terms of Use</title>
 
-By accessing or using MASAR, you agree to these Terms of Use. If you do not agree with these terms, please do not use the application.
+<meta
+name="description"
+content="Terms of Use for the MASAR Riyadh Metro application."
 
-## 1. Use of MASAR
+>
 
-MASAR is designed to provide users with information and tools related to Riyadh Metro transportation, including route planning, metro information, maps, journey-related features, and other application services.
+  <style>
+    :root {
+      --background: #001B17;
+      --surface: #052A24;
+      --primary: #08B989;
+      --accent: #55E3BD;
+      --text: #F5F7F5;
+      --muted: #A0AAA6;
+      --border: #164A3F;
+      --gold: #C7A35B;
+      --amber: #D8B66B;
+    }
 
-You agree to use MASAR only for lawful purposes and in accordance with these Terms.
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-## 2. User Accounts
+    html {
+      scroll-behavior: smooth;
+    }
 
-Some MASAR features may require you to create an account.
+    body {
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
 
-You are responsible for:
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.7;
+    }
 
-* Providing accurate information when creating your account.
-* Keeping your login credentials secure.
-* Maintaining the security of your account.
-* Not using another person's account without permission.
+    /* ---------- HEADER ---------- */
 
-You should notify us if you believe your account has been accessed without authorization.
+    header {
+      padding: 70px 20px 55px;
+      text-align: center;
 
-## 3. Location Services
+      background:
+        radial-gradient(
+          circle at 50% 0%,
+          rgba(8, 185, 137, 0.17),
+          transparent 45%
+        ),
+        var(--background);
 
-Certain MASAR features may use location information to provide relevant transportation and route-planning functionality.
+      border-bottom: 1px solid var(--border);
+    }
 
-You may control location permissions through your device settings. Disabling location services may affect the availability or functionality of certain features.
+    .logo {
+      width: 72px;
+      height: 72px;
 
-## 4. Transportation Information
+      margin: 0 auto 22px;
 
-MASAR may provide transportation information, routes, maps, estimated journey information, or other related data.
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-This information is provided for convenience and may change due to service updates, operational changes, maintenance, delays, or other circumstances.
+      border-radius: 20px;
 
-Users should verify important transportation information through official transportation sources when necessary.
+      background:
+        linear-gradient(
+          145deg,
+          var(--primary),
+          #067F66
+        );
 
-## 5. Acceptable Use
+      color: var(--text);
 
-You agree not to:
+      font-size: 29px;
+      font-weight: 800;
+      letter-spacing: 2px;
 
-* Use MASAR for unlawful or fraudulent purposes.
-* Attempt to gain unauthorized access to the application or its systems.
-* Interfere with the operation or security of MASAR.
-* Reverse engineer or abuse the application's services.
-* Upload or transmit malicious software.
-* Use the application in a way that could harm other users or the service.
+      box-shadow:
+        0 0 35px rgba(8, 185, 137, 0.20);
+    }
 
-## 6. Intellectual Property
+    .brand {
+      font-size: 38px;
+      font-weight: 800;
+      letter-spacing: 8px;
 
-The MASAR application, including its software, interface, design, branding, graphics, and original content, may be protected by applicable intellectual property laws.
+      background:
+        linear-gradient(
+          90deg,
+          var(--text),
+          var(--accent)
+        );
 
-You may not reproduce, modify, distribute, sell, or commercially exploit MASAR's proprietary materials without appropriate authorization.
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
 
-## 7. Third-Party Services
+    header p {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 15px;
+    }
 
-MASAR may use third-party services to provide certain functionality, such as authentication, maps, analytics, hosting, or other application services.
+    /* ---------- CONTENT ---------- */
 
-Your use of features provided by third parties may also be subject to their respective terms and policies.
+    .content {
+      width: 100%;
+      max-width: 850px;
 
-## 8. Availability of the Service
+      margin: 0 auto;
 
-We aim to keep MASAR available and functional, but we do not guarantee that the application will always be available, uninterrupted, error-free, or free from technical issues.
+      padding: 55px 24px 80px;
+    }
 
-Features may be modified, suspended, or discontinued when necessary.
+    .updated {
+      display: inline-block;
 
-## 9. Disclaimer
+      margin-bottom: 35px;
 
-MASAR is provided for informational and transportation-planning purposes.
+      padding: 7px 13px;
 
-To the extent permitted by applicable law, MASAR does not guarantee the accuracy, completeness, or availability of transportation information provided through the application.
+      border: 1px solid var(--border);
+      border-radius: 20px;
 
-Users remain responsible for making appropriate travel decisions and following official transportation instructions and regulations.
+      background: rgba(5, 42, 36, 0.7);
 
-## 10. Limitation of Liability
+      color: var(--muted);
 
-To the extent permitted by applicable law, MASAR and its developers shall not be responsible for losses or damages resulting from your use of, or inability to use, the application or information provided through it.
+      font-size: 13px;
+    }
 
-## 11. Changes to These Terms
+    h1 {
+      font-size: 34px;
+      margin-bottom: 18px;
+    }
 
-These Terms of Use may be updated from time to time.
+    h2 {
+      margin-top: 42px;
+      margin-bottom: 14px;
 
-When changes are made, the updated version will be published through the application or the relevant MASAR website.
+      font-size: 22px;
 
-Your continued use of MASAR after changes become effective means that you accept the updated Terms.
+      color: var(--accent);
+    }
 
-## 12. Contact
+    p {
+      margin-bottom: 15px;
+      color: var(--muted);
+    }
 
-If you have questions regarding these Terms of Use, please contact the MASAR team through the contact information provided with the application.
+    ul {
+      margin: 12px 0 20px 22px;
+      color: var(--muted);
+    }
 
----
+    li {
+      margin-bottom: 8px;
+    }
 
-**Last Updated:** August 19, 2026
+    strong {
+      color: var(--text);
+    }
+
+    .highlight {
+      padding: 20px 22px;
+
+      margin: 25px 0;
+
+      border-left: 3px solid var(--primary);
+
+      background: var(--surface);
+
+      border-radius: 0 12px 12px 0;
+    }
+
+    .highlight p {
+      margin-bottom: 0;
+    }
+
+    /* ---------- FOOTER ---------- */
+
+    footer {
+      border-top: 1px solid var(--border);
+
+      padding: 30px 20px;
+
+      text-align: center;
+
+      color: var(--muted);
+
+      font-size: 13px;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: var(--text);
+    }
+
+    .copyright {
+      margin-top: 8px;
+      color: #687873;
+    }
+
+    /* ---------- MOBILE ---------- */
+
+    @media (max-width: 600px) {
+      header {
+        padding: 50px 20px 40px;
+      }
+
+      .brand {
+        font-size: 30px;
+        letter-spacing: 6px;
+      }
+
+      .content {
+        padding: 40px 20px 60px;
+      }
+
+      h1 {
+        font-size: 29px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+```
+<div class="logo">M</div>
+
+<div class="brand">MASAR</div>
+
+<p>Terms of Use</p>
+```
+
+  </header>
+
+  <!-- CONTENT -->
+
+  <main class="content">
+
+```
+<div class="updated">
+  Last Updated: August 19, 2026
+</div>
+
+<h1>Terms of Use</h1>
+
+<p>
+  Welcome to MASAR. These Terms of Use govern your access to
+  and use of the MASAR application and related services.
+</p>
+
+<p>
+  By accessing or using MASAR, you agree to these Terms of Use.
+  If you do not agree with these terms, please do not use the
+  application.
+</p>
+
+
+<h2>1. Use of MASAR</h2>
+
+<p>
+  MASAR is designed to provide users with information and tools
+  related to Riyadh Metro transportation, including route
+  planning, metro information, maps, journey-related features,
+  and other application services.
+</p>
+
+<p>
+  You agree to use MASAR only for lawful purposes and in
+  accordance with these Terms.
+</p>
+
+
+<h2>2. User Accounts</h2>
+
+<p>
+  Some MASAR features may require you to create an account.
+</p>
+
+<p>You are responsible for:</p>
+
+<ul>
+  <li>Providing accurate information when creating your account.</li>
+  <li>Keeping your login credentials secure.</li>
+  <li>Maintaining the security of your account.</li>
+  <li>Not using another person's account without permission.</li>
+</ul>
+
+<p>
+  You should notify us if you believe your account has been
+  accessed without authorization.
+</p>
+
+
+<h2>3. Location Services</h2>
+
+<p>
+  Certain MASAR features may use location information to provide
+  relevant transportation and route-planning functionality.
+</p>
+
+<p>
+  You may control location permissions through your device
+  settings. Disabling location services may affect the
+  availability or functionality of certain features.
+</p>
+
+
+<h2>4. Transportation Information</h2>
+
+<div class="highlight">
+
+  <p>
+    <strong>Important:</strong>
+    MASAR provides transportation information for convenience.
+    Information such as routes, schedules, station information,
+    service status, and journey details may change.
+  </p>
+
+</div>
+
+<p>
+  Transportation information may be affected by service
+  updates, operational changes, maintenance, delays, closures,
+  or other circumstances.
+</p>
+
+<p>
+  Users should verify important transportation information
+  through official transportation sources when necessary.
+</p>
+
+
+<h2>5. Acceptable Use</h2>
+
+<p>You agree not to:</p>
+
+<ul>
+  <li>Use MASAR for unlawful or fraudulent purposes.</li>
+
+  <li>
+    Attempt to gain unauthorized access to the application,
+    accounts, systems, or services.
+  </li>
+
+  <li>
+    Interfere with the operation, availability, or security
+    of MASAR.
+  </li>
+
+  <li>
+    Reverse engineer, exploit, or abuse the application's
+    services.
+  </li>
+
+  <li>
+    Upload or transmit malicious software or harmful content.
+  </li>
+
+  <li>
+    Use the application in a way that could harm other users
+    or the service.
+  </li>
+</ul>
+
+
+<h2>6. Intellectual Property</h2>
+
+<p>
+  The MASAR application, including its software, interface,
+  design, branding, graphics, and original content, may be
+  protected by applicable intellectual property laws.
+</p>
+
+<p>
+  You may not reproduce, modify, distribute, sell, or
+  commercially exploit MASAR's proprietary materials without
+  appropriate authorization.
+</p>
+
+
+<h2>7. Third-Party Services</h2>
+
+<p>
+  MASAR may use third-party services to provide certain
+  functionality, including authentication, maps, hosting,
+  analytics, or other application services.
+</p>
+
+<p>
+  Your use of features provided by third parties may also be
+  subject to their respective terms and policies.
+</p>
+
+
+<h2>8. Availability of the Service</h2>
+
+<p>
+  We aim to keep MASAR available and functional, but we do not
+  guarantee that the application will always be available,
+  uninterrupted, error-free, or free from technical issues.
+</p>
+
+<p>
+  Features may be modified, suspended, or discontinued when
+  necessary.
+</p>
+
+
+<h2>9. Disclaimer</h2>
+
+<p>
+  MASAR is provided for informational and transportation-planning
+  purposes.
+</p>
+
+<p>
+  To the extent permitted by applicable law, MASAR does not
+  guarantee the accuracy, completeness, or availability of
+  transportation information provided through the application.
+</p>
+
+<p>
+  Users remain responsible for making appropriate travel
+  decisions and following official transportation instructions
+  and regulations.
+</p>
+
+
+<h2>10. Limitation of Liability</h2>
+
+<p>
+  To the extent permitted by applicable law, MASAR and its
+  developers shall not be responsible for losses or damages
+  resulting from your use of, or inability to use, the
+  application or information provided through it.
+</p>
+
+
+<h2>11. Changes to These Terms</h2>
+
+<p>
+  These Terms of Use may be updated from time to time.
+</p>
+
+<p>
+  When changes are made, the updated version will be published
+  through the application or the relevant MASAR website.
+</p>
+
+<p>
+  Your continued use of MASAR after changes become effective
+  means that you accept the updated Terms.
+</p>
+
+
+<h2>12. Contact</h2>
+
+<p>
+  If you have questions regarding these Terms of Use, please
+  contact the MASAR team through the contact information
+  provided with the application.
+</p>
+```
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+```
+<div>
+  <a href="https://raghd-dev.github.io/masar/">
+    MASAR Home
+  </a>
+
+  &nbsp; · &nbsp;
+
+  <a href="https://raghd-dev.github.io/masar-privacy-policy/">
+    Privacy Policy
+  </a>
+</div>
+
+<div class="copyright">
+  © 2026 MASAR. All rights reserved.
+</div>
+```
+
+  </footer>
+
+</body>
+</html>
